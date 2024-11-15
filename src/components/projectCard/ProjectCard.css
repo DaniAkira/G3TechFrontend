@@ -1,0 +1,149 @@
+.project-card {
+    border: none;
+    border-radius: 30px;
+    background-color: #AAFEFD;
+    height: 20vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: #393939;
+}
+
+.card-first-section{
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    font-size: 14px;
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.card-first-section p{
+    width: 60%;
+    text-align: left;
+    padding-left: 1em;
+    font-size: 16px;
+}
+
+.project-actions{
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5em;
+}
+
+.card-second-section{
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+.card-project-description{
+    text-align: start;
+    width: 60%;
+    padding-left: 1em;
+    font-size: 14px;
+}
+
+.project-dates {
+    width: 40%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3em;
+    border-left: 1px solid #B0B0B0;
+}
+
+.project-dates p {
+    padding-left: 1em;
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+}
+
+.project-dates span {
+    font-size: 12px;
+    margin-right: -5vw;
+    width: 100%;
+}
+
+.project-dates :nth-child(2) {
+    border-bottom:  1px solid #B0B0B0;
+    margin-bottom: 0.5em;
+    
+}
+
+.view-btn{
+    background-color: #AAFEFD;
+    border: none;
+}
+
+.view-btn img{
+    height: 20px;
+}
+
+.delete-btn{
+    background-color: #AAFEFD;
+    border: none;
+}
+
+.delete-btn img{
+    height: 26px;
+}
+
+.modal {
+    height: 6em;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: rgba(18,172,170);
+    width: 60%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    font-size: 0.6em;
+    color: #393939;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 999;;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin: 0.2em;
+    margin-bottom: 1em;
+    padding: 5px 10px;
+    border: none;
+    background-color: #AAFEFD;
+    color: 393939;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    height: 2em;
+}
+
+.modal-button:hover {
+    background-color: #0056b3;
+}

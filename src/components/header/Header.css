@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #12ACAA;
+    margin-right: -3vw;
+}
+
+.logo1 {
+    height: 14vw;
+    margin-right: -3vw;
+}
+
+.logo2 {
+    height: 50vw;
+    margin-left: -3vw;
+}

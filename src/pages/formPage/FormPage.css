@@ -1,0 +1,105 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #12ACAA;
+    color: #393939;
+    width: 100vw;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.forms-label {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    gap: 5px;
+}
+
+.forms-label label {
+    text-align: start;
+    padding-left: 1em;
+    font-size: 0.9em;
+}
+
+.forms-label input {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #AAFEFD;
+    border-radius: 50px;
+    height: 1.8em;
+    border: 0;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.forms-label.project-description {
+    padding: 0;
+}
+
+.forms-label.project-description textarea {
+    border: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #AAFEFD;
+    height: 8em;
+    border-radius: 20px;
+    text-align: start;
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+
+.buttons {
+    padding-bottom: 2em;
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-left: 7.5em;
+}
+
+.buttons button {
+    color: #393939;
+    background-color: #AAFEFD;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    height: 1.5em;
+    width: 6em;
+}
+
+.new-task-btn {
+    border-radius: 50px;
+    border: none;
+    height: 1.8em;
+    text-align: start;
+    padding-left: 1em;
+    color: #393939;
+    background-color: #AAFEFD;
+}
+
+.new-task-btn img {
+    height: 1.1em;
+    padding-left: 120px;
+}
+
+.success-message {
+    background-color: rgba(18,172,170, 0.9);
+    color: #393939;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 7px;  
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 1);
+    height: 3em;
+}
+

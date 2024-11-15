@@ -1,0 +1,15 @@
+.task-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trash-btn {
+    background-color: #12ACAA;
+    border: none;
+    display: flex;
+}
+
+.trash-btn img{
+    height: 2em;
+    padding-right: 15px;
+}

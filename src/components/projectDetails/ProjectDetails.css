@@ -1,0 +1,57 @@
+.project-details {
+    border-radius: 15px;
+    padding-left: 10%;
+    width: 80%;
+    text-align: center;
+    color: #393939;
+}
+
+.project-name-view-card {
+    font-size: 0.8em;
+    height: 4em;
+    margin-bottom: 5px;
+}
+
+.project-name-view-card h1 {
+    margin: 0;
+    
+}
+
+.view-card-details {
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: #AAFEFD;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.view-card-details h2 {
+    font-size: 1em;
+}
+
+.view-card-details p {
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+
+.task-details h4 {
+    font-size: 0.9em;
+}
+
+.task-details p {
+    font-size: 0.8em;
+}
+
+.tasks-list {
+    margin: 0;
+}
+
+.task p {
+    text-align: start;
+    font-size: 0.8em;
+    padding-left: 2em;
+    margin: 0;
+    margin-top: 4px;
+}
+
